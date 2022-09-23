@@ -2,32 +2,21 @@
     --headind-font-family: 'Lato', sans-serif;
     --default-font-family: 'Poppins', sans-serif;
 }
-/* Photo by <a href="https://unsplash.com/@federicagiusti?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Federica Giusti</a> on <a href="https://unsplash.com/s/photos/shadow-on-the-wall?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
-/* Photo by <a href="https://unsplash.com/@pawel_czerwinski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pawel Czerwinski</a> on <a href="https://unsplash.com/s/photos/plant?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
-/* Photo by <a href="https://unsplash.com/@alexlvrs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alex Lvrs</a> on <a href="https://unsplash.com/s/photos/plant?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
-/* Photo by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Annie Spratt</a> on <a href="https://unsplash.com/s/photos/plant?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
 body {
     background-image: url(/images/backgroun-color.jpg);
     background-size: cover;
 }
-.black-frame {
-    display: flex;
-    position:absolute;
-    left: 50px;
-    top: 100px;
-    width: 500px;
-    height: 600px;
-}
-.img-1 {
-    display: flex;
-}
-.my-name {
+.my-name, 
+.profession, 
+.about-me, 
+.my-work {
     display: flex;
     font-size: 45px;
-    margin-top: 250px;
+    /* margin-top: 250px; */
     font-family: var(--headind-font-family);
     flex-shrink: 0;
     align-items: center;
+    /* text-align: center; */
 }
 .my-name:before {
     content: '';
@@ -36,30 +25,30 @@ body {
     display: inline-block;
     background-color: black;
 }
-.profession {
-    display: flex;
-    font-size: 45px;
-    font-family: var(--headind-font-family);
-    flex-shrink: 0;
-    align-items: center;
-}
 .profession:after {
     content: '';
     flex-grow: 1;
-    height: 2px;
+    height: 1px;
     display: inline-block;
     background-color: black;
 }
-.link {
-    padding: 30px;
-    align-items: flex-end;
-    display: inline-flex;
-    flex-direction: column;
-    font-size: 24px;
-    font-family: var(--default-font-family);
-    color: black;
-    text-decoration: none;
+.icon-leaf {
+    max-width: 30px;
+    padding-left: 10px;
 }
-.link:hover{
-    color: rgb(12, 100, 12);
+
+.about-me:before {
+    content: '';
+    flex-grow: 1;
+    height: 1px;
+    display: inline-block;
+    background-color: black;
+}
+.my-work:before, 
+.my-work:after  {
+    content: '';
+    flex-grow: 1;
+    height: 1px;
+    display: inline-block;
+    background-color: black;
 }

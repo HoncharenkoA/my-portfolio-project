@@ -26,38 +26,43 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="src/style.css" />
-    <title>Document</title>
+    <title>My portfolio</title>
   </head>
   <body>
     <div class="main-block">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="/images/undraw_handcrafts_leaf.svg" alt="icon-leaf" class="icon-leaf">AH
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="about.html" title="About me and my project">About</a>
+                <a class="nav-item nav-link" href="work.html" title="More about my project" >My work</a>
+                <a class="nav-item nav-link" href="certificate.html" title="My certificate in SheCodes">Certificate</a>
+                <a class="nav-item nav-link disabled" href="contact.html" title="Contact me">Contact</a>
+              </div>
+            </div>
+          </nav>
       <div class="container">
         <div class="row">
-          <div class="col-6">
-            <img
-              src="/images/img-1.jpg"
-              alt="https://unsplash.com/s/photos/plant?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-              class="img-1"
-              width="450px"
-            />
-            <img
-              src="/images/black-frame.png"
-              alt="black-frame"
-              class="black-frame"
-            />
-          </div>
-          <div class="col-6">
-            <div class="my-name">
-                Anastasiia Honcharenko
-              </div>
-              <div class="profession">
-              Front-end developer
+          <div class="col d-none d-sm-block">
+            <div class="position d-flex justify-content-center">
+              <img
+                src="/images/img-1.jpeg"
+                alt="photo-leaves"
+                class="img-fluid shadow p-3 mb-2 bg-white rounded mt-5"
+                width="450px"
+              />
             </div>
           </div>
-          <footer>
-                <a href="about.html" class="link" title="About me and my project"> About </a>
-                <a href="work.html" class="link" title="More about my project"> My work </a>
-                <a href="contact.html" class="link" title="Contact me"> Contact </a>
-            </footer>
+          <div class="col text-center">
+              <div class="my-name">Anastasiia Honcharenko</div>
+              <div class="profession">Front-end developer</div>
+            </div>
         </div>
       </div>
     </div>
