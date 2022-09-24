@@ -8,21 +8,16 @@ body {
 }
 h1, h2 {
     font-family: var(--headind-font-family);
-}
-p {
-    font-family: var(--default-font-family);
-}
-.my-name, 
-.profession, 
-.about-me, 
-.my-work {
     display: flex;
-    font-size: 45px;
     /* margin-top: 250px; */
     font-family: var(--headind-font-family);
     flex-shrink: 0;
     align-items: center;
     /* text-align: center; */
+    color: rgb(52, 59, 52);
+}
+p {
+    font-family: var(--default-font-family);
 }
 .my-name:before {
     content: '';
@@ -34,7 +29,7 @@ p {
 .profession:after {
     content: '';
     flex-grow: 1;
-    height: 1px;
+    height: 2px;
     display: inline-block;
     background-color: black;
 }
@@ -46,7 +41,7 @@ p {
 .about-me:before {
     content: '';
     flex-grow: 1;
-    height: 1px;
+    height: 2px;
     display: inline-block;
     background-color: black;
 }
@@ -59,11 +54,11 @@ p {
     background-color: black;
 }
 .primary-link {
-    background: rgb(157, 205, 157);
+    background: rgba(188, 224, 188, 0.79);
     text-decoration: none;
     color: black;
     border-radius: 4px;
-    padding: 20px 15px;
+    padding: 15px 15px;
     text-transform: capitalize;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -81,4 +76,18 @@ p {
         text-align: center;
         margin: 0 20px;
     }
+}
+.ukraine {
+    filter: grayscale(100%) contrast(120%);
+}
+.ukraine:hover {
+    filter: none;
+    transition: all 200ms ease-in-out;
+}
+.weather {
+    filter: grayscale(100%) contrast(120%);
+}
+.weather:hover {
+    filter: none;
+    transition: all 200ms ease-in-out;
 }
