@@ -1,34 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-          href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-          rel="stylesheet"
-          integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
-          crossorigin="anonymous"
-        />
-        <script
-          src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-          integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-          crossorigin="anonymous"
-        ></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Poppins:ital@1&display=swap"
-          rel="stylesheet"
-        />
-        <script
-          src="https://kit.fontawesome.com/464122679d.js"
-          crossorigin="anonymous"
-        ></script>
-        <link rel="stylesheet" href="src/style.css" />
-        <title>Document</title>
-      </head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Poppins:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/464122679d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="src/style.css" />
+    <title>My portfolio</title>
+  </head>
+  <body>
+    <div class="main-block">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">
+          <img
+            src="/images/undraw_handcrafts_leaf.svg"
+            alt="icon-leaf"
+            class="icon-leaf"
+          />AH
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+            <a
+              class="nav-item nav-link"
+              href="about.html"
+              title="About me and my project"
+              >About</a
+            >
+            <a
+              class="nav-item nav-link"
+              href="work.html"
+              title="More about my project"
+              >My work</a
+            >
+            <a
+              class="nav-item nav-link"
+              href="certificate.html"
+              title="My certificate in SheCodes"
+              >Certificate</a
+            >
+            <a
+              class="nav-item nav-link active"
+              href="#"
+              title="Contact me"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-md-6">
+            <div class="position d-flex justify-content-center">
+              <img
+                src="/images/img-2.jpg"
+                alt="photo-leaves"
+                class="leaf img-fluid shadow p-3 mb-2 bg-white rounded mt-5"
+                width="450px"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 d-flex justify-content-center flex-column align-items-center">
+            <h1 class="my-name mb-5">Let's get in touch!</h1>
+            <h3 class="contact-mail">
+              Email
+            </h3>
+            <p>
+              <a href="mailto:nastyayavorska@gmail.com" class="link-decoration" target="_blank" title="to send mail">nastyayavorska@gmail.com</a>
+            </p>
+            <h3 class="contact-mail">
+              Instagram
+            </h3>
+            <p>
+              <a href="https://www.instagram.com/nastya_honcharenko/" class="link-decoration" target="_blank" title="insta link">@nastya_honcharenko</a>
+            </p>
+            <h3 class="contact-mail">
+              LinkedIn
+            </h3>
+            <p>
+              <a href="https://www.linkedin.com/in/anastasiia-honcharenko-1a691b95/"  class="link-decoration" target="_blank" title="linkedin link">@nastya_honcharenko</a>
+            </p>
+            <footer>
+              <div class="contact-link mt-5">
+                <a href="https://www.instagram.com/nastya_honcharenko/" target="_blank" title="link to instagram">
+              <i class="fa-brands fa-instagram icon-link"></i>
+            </a>
+            <a href="https://www.facebook.com/nastya.yavorska" target="_blank" title="link to facebook">
+              <i class="fa-brands fa-facebook icon-link"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/anastasiia-honcharenko-1a691b95/" target="_blank" title="link to linkedin">
+              <i class="fa-brands fa-linkedin icon-link"></i>
+            </a>
+            <a href="mailto:nastyayavorska@gmail.com" target="_blank" title="link to facebook">
+            <i class="fa-solid fa-envelope icon-link"></i>
+          </a>
+            </div>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

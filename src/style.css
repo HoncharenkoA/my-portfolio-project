@@ -26,14 +26,6 @@ p {
     max-width: 30px;
     padding-left: 10px;
 }
-
-.about-me:before {
-    content: '';
-    flex-grow: 0.5;
-    height: 2px;
-    display: inline-block;
-    background-color: black;
-}
 .my-work {
     justify-content: center;
     margin-top: 70px;
@@ -68,6 +60,47 @@ p {
     background: none;
     border: 1px solid rgba(188, 224, 188, 0.79);
 }
+.ukraine {
+    filter: grayscale(100%) contrast(120%);
+    transition: all 200ms ease-in-out;
+}
+.ukraine:hover {
+    filter: none;
+ 
+}
+.weather {
+    filter: grayscale(100%) contrast(120%);
+}
+.weather:hover {
+    filter: none;
+    transition: all 200ms ease-in-out;
+}
+.icon-link {
+    text-decoration: none;
+    font-size: 25px;
+    color:rgba(136, 176, 136, 0.79);
+    transition: all 100ms ease-in-out;
+    padding: 5px;
+}
+.icon-link:hover {
+    color:rgba(78, 91, 78, 0.79);
+}
+a {
+    text-decoration: none;
+}
+.contact-link {
+    text-align: center;
+}
+.link-decoration {
+    color:rgba(87, 112, 87, 0.76);
+}
+.link-decoration:hover {
+    color:rgba(37, 41, 37, 0.79);
+}
+.contact-mail {
+    font-family: var(--default-font-family);
+    color: rgb(52, 59, 52);
+}
 @media (max-width: 576px) {
     .my-name {
         text-align: center;
@@ -93,19 +126,4 @@ p {
     .my-photo {
         max-width: 250px;
     }
-}
-.ukraine {
-    filter: grayscale(100%) contrast(120%);
-    transition: all 200ms ease-in-out;
-}
-.ukraine:hover {
-    filter: none;
- 
-}
-.weather {
-    filter: grayscale(100%) contrast(120%);
-}
-.weather:hover {
-    filter: none;
-    transition: all 200ms ease-in-out;
 }
