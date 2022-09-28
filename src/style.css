@@ -61,7 +61,6 @@ p {
     color: black;
     border-radius: 4px;
     padding: 15px 15px;
-    text-transform: capitalize;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 .primary-link:hover {
@@ -92,7 +91,7 @@ p {
         margin-top: 20px;
     }
     .my-photo {
-        max-width: 350px;
+        max-width: 250px;
     }
 }
 .ukraine {
