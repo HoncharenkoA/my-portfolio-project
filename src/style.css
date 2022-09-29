@@ -106,8 +106,18 @@ a {
     text-align: center;
     font-size: 18px;
 }
-@media (max-width: 576px) {
+@media (max-width: 900px) {
     .my-name {
+        margin-top: 30px;
+    }
+}
+@media (max-width: 576px) {
+    h2,
+    p {
+        text-align: center;
+    }
+    .my-name {
+        margin-top: 10px;
         text-align: center;
         font-size: 32px;
     }
@@ -124,6 +134,7 @@ a {
     }
     .leaf {
         max-width: 250px;
+        margin: 10px;
     }
     .about-me {
         margin-top: 20px;
